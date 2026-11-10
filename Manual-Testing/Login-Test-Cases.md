@@ -43,3 +43,15 @@ To test the login functionality of a sample application.
 - Expected Result: Required field validation should appear.
 ## Conclusion
 Basic positive and negative login scenarios have been identified.
+
+### TC006 – Invalid Email Format
+- Enter an invalid email address (example: malar@gmail).
+- Enter a valid password.
+- Click Login.
+- Expected Result: Appropriate email validation message should appear.
+
+### TC007 – Password Masking
+- Open the login page.
+- Enter a password.
+- Observe the password field.
+- Expected Result: Password characters should be hidden using dots or asterisks.
